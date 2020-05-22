@@ -4,16 +4,16 @@
   "engineFactory": "org.example.ecommercerecommendation.ECommerceRecommendationEngine",
   "datasource": {
     "params" : {
-      "appName": "ecomm"
+      "appName": "knowme"
     }
   },
   "algorithms": [
     {
-      "name": "ecomm",
+      "name": "knowme",
       "params": {
-        "appName": "ecomm",
+        "appName": "knowme",
         "unseenOnly": true,
-        "seenEvents": ["buy", "view"],
+        "seenEvents": ["buy", "view", "click"],
         "similarEvents": ["view"],
         "rank": 10,
         "numIterations" : 20,
